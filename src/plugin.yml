@@ -1,0 +1,21 @@
+main: me.phelix.project.Main
+version: 1.0
+name: Project
+author: Phelix
+
+commands:
+  stats:
+  reloadconfig:
+    aliases: [rlcf, rlconfig, reloadcf]
+  exp:
+  level:
+  resetstats:
+    aliases: [rstats, resets]
+
+permissions:
+  p.reloadconfig:
+    description: Reloads the config
+  p.setstats:
+    description: Changes the stats of the player
+  p.resetstats:
+    description: Resets the players stats
